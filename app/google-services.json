@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "244759709493",
+    "firebase_url": "https://malariadetection-195d7.firebaseio.com",
+    "project_id": "malariadetection-195d7",
+    "storage_bucket": "malariadetection-195d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244759709493:android:08f60fbbb69d464627ee7c",
+        "android_client_info": {
+          "package_name": "com.malariadetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244759709493-g3ajc2fauh4iq4av057gt66kop16r9vu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNZxbX_LY7mNKl_BSkJAwO6yAJcVy2Rjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "244759709493-g3ajc2fauh4iq4av057gt66kop16r9vu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
