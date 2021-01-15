@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
     String userId;
 
     @Override
-        protected void onCreate(Bundle savedInstanceState) {
+      protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_main);
             imageView=(ImageView)findViewById(R.id.image);
@@ -187,7 +187,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void logout(View view) {
         FirebaseAuth.getInstance().signOut();//logout
-        startActivity(new Intent(getApplicationContext(),Login.class));
+        startActivity(new Intent(getApplicationContext(),HubPage.class));
         finish();
     }
 }
