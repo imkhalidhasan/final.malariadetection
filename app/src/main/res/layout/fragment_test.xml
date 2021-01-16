@@ -7,21 +7,38 @@
     tools:context=".ReportFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="@string/test"
-        android:textColor="#fff"
-        android:textSize="26sp"/>
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="203dp"
-        android:layout_height="216dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+
+        android:background="#8C9EFF"
         android:text="@string/malaria_detection"
-        android:textSize="26sp"
         android:textColor="#F4FF81"
-        android:background="#8C9EFF"/>
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="16dp"
+        android:background="#8C9EFF"
+        android:text="MRI"
+        android:textColor="#F4FF81"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="16dp"
+        android:background="#8C9EFF"
+        android:text="Dengue"
+        android:textColor="#F4FF81"
+        android:textSize="26sp" />
 
 </RelativeLayout>

@@ -1,6 +1,7 @@
 package com.malariadetection;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
@@ -14,6 +15,7 @@ public class HubPage extends AppCompatActivity {
 
     private static final String TAG =HubPage.class.getSimpleName() ;
     ChipNavigationBar bottomNav;
+    private Toolbar toolbar;
 
     FragmentManager fragmentManager;
 
@@ -21,8 +23,13 @@ public class HubPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hub_page);
+        toolbar = findViewById(R.id.myToolBar);
+
+        setSupportActionBar(toolbar);
 
         bottomNav = findViewById(R.id.bottom_nav);
+
+
         if(savedInstanceState==null){
             bottomNav.setItemSelected(R.id.home, true);
             fragmentManager = getSupportFragmentManager();
