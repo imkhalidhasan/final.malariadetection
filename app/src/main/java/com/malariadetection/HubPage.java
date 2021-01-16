@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
@@ -40,8 +41,11 @@ public class HubPage extends AppCompatActivity {
                         fragment = new HomeFragment();
                         break;
                     case R.id.dashboard:
-                        fragment = new TestFragment();
-                        break;
+                        startActivity(new Intent(getApplicationContext()
+                        ,MainActivity.class));
+                        overridePendingTransition(0, 0);
+                       break;
+
                     case R.id.report:
                         fragment = new ReportFragment();
                         break;

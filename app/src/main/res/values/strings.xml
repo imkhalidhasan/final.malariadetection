@@ -6,4 +6,7 @@
     <string name="first_fragment">First Fragment</string>
     <string name="second_fragment">Second Fragment</string>
     <string name="thirdfragment">ThirdFragment</string>
+    <string name="logout">Logout</string>
+    <string name="classify">Classify</string>
+    <string name="todo">TODO</string>
 </resources>
