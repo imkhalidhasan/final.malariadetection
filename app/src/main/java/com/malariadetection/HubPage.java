@@ -40,11 +40,15 @@ public class HubPage extends AppCompatActivity {
                     case R.id.home:
                         fragment = new HomeFragment();
                         break;
-                    case R.id.dashboard:
+
+                  case R.id.dashboard:
+                            fragment = new TestFragment();
+                        break;
+                    /*case R.id.dashboard:
                         startActivity(new Intent(getApplicationContext()
                         ,MainActivity.class));
                         overridePendingTransition(0, 0);
-                       break;
+                       break;*/
 
                     case R.id.report:
                         fragment = new ReportFragment();

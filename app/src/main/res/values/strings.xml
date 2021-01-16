@@ -9,4 +9,6 @@
     <string name="logout">Logout</string>
     <string name="classify">Classify</string>
     <string name="todo">TODO</string>
+    <string name="test">test</string>
+    <string name="malaria_detection">Malaria Detection</string>
 </resources>
