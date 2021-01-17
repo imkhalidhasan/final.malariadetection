@@ -65,7 +65,7 @@ public class ReportFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_report,container, false);
-        b2 = v.findViewById(R.id.button);
+        b2 = v.findViewById(R.id.button5);
 
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -76,5 +76,6 @@ public class ReportFragment extends Fragment {
 
         return v;
     }
+
 
 }
