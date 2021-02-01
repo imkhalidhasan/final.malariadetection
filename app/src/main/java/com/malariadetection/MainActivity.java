@@ -45,7 +45,7 @@ import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
     protected Interpreter tflite;
-    private MappedByteBuffer tfliteModel;
+    private MappedByteBuffer newmodel;
     private TensorImage inputImageBuffer;
     private  int imageSizeX;
     private  int imageSizeY;
