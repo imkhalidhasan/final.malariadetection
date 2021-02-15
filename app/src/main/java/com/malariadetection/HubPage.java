@@ -60,6 +60,10 @@ public class HubPage extends AppCompatActivity {
                     case R.id.report:
                         fragment = new ReportFragment();
                         break;
+
+                    case R.id.profile:
+                        fragment = new ProfileFragment();
+                        break;
                 }
 
                 if(fragment !=null){
