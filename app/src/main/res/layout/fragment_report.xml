@@ -3,22 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#80D8FF"
+    android:background="#fff"
     tools:context=".ReportFragment">
 
     <!-- TODO: Update blank fragment layout -->
 
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#F4FF81"
-        android:onClick="logout"
-        android:text="@string/logout"
-        android:layout_centerHorizontal="true"
-        android:layout_centerInParent="true"
-        />
 
 
 </RelativeLayout>

@@ -28,7 +28,7 @@ public class ReportFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    Button b2;
+   Button b2;
 
     public ReportFragment() {
         // Required empty public constructor
@@ -64,17 +64,8 @@ public class ReportFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_report,container, false);
-        b2 = v.findViewById(R.id.button5);
+        return inflater.inflate(R.layout.fragment_report,container, false);
 
-        b2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(getActivity(),Login.class));
-            }
-        });
-
-        return v;
     }
 
 

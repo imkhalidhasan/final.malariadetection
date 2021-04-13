@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/walpaper"
+    android:background="@color/cardview_light_background"
     tools:context=".MainActivity">
 
    <Button
@@ -55,7 +55,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/image"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="103dp"
         android:text="@string/click_below_to_select_a_image"
         android:textSize="20sp"
         android:textStyle="bold"
